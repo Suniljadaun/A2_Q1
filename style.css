@@ -1,0 +1,73 @@
+/* --- General Body & Font Styling --- */
+body {
+    font-family: Arial, sans-serif; /* A clean, universal font */
+    background-color: #f4f4f9; /* A soft, light grey background */
+    color: #333; /* Dark grey text for better readability than pure black */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* --- Main Content Card --- */
+.container {
+    background-color: #ffffff; /* White background for the main content card */
+    padding: 40px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* A subtle shadow for a lifting effect */
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start; /* Aligns items to the top */
+    gap: 30px; /* Space between the image and the text */
+}
+
+/* --- Profile Image Styling --- */
+.profile-image {
+    width: 200px;
+    height: 200px; /* Make it a square */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border-radius: 50%; /* Makes the image a circle */
+    border: 5px solid #007bff; /* An accent color border */
+}
+
+/* --- Text Content Area --- */
+.info {
+    flex: 1; /* Allows the info section to take up the remaining space */
+}
+
+/* --- Typography --- */
+h1 {
+    font-size: 2.5em; /* Large font size for the name */
+    color: #007bff; /* Blue accent color */
+    margin-top: 0;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #f4f4f9; /* A subtle underline */
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-top: 30px; /* Adds space above section titles */
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6; /* Improves readability by increasing space between lines */
+    margin: 0;
+}
+
+.intro-paragraph {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* --- Section Styling --- */
+.section {
+    margin-bottom: 20px; /* Space between sections like Education, Experience, etc. */
+}
